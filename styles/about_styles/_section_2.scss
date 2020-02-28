@@ -1,0 +1,15 @@
+.section-2 {
+    margin: 0 auto;
+    width: 85%;
+    .who_are_we_para {
+        text-align: justify;
+    }
+    .who_are_we_header {
+        font-size: 30px;
+        font-weight: 600;
+        color: $blackColor;
+    }
+    .wwho_are_we_header_span {
+        color: $primaryColor
+    }
+}

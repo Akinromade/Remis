@@ -1,0 +1,591 @@
+
+   /* RESPONSIVE DESIGN */
+
+   @media screen and (max-width: 800px) {
+
+    // Get a quote form section
+    .get_a_auote_card {
+        border-radius: 0;
+        border: none;
+        -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
+        border-top-left-radius: 10px !important;
+        border-top-right-radius: 10px !important;
+        height: auto;
+        width: 100% !important;
+        position: relative !important ; 
+        top: 0% !important;
+    }
+
+    .stations_get_a_quote_section .get_quote_container {
+        margin: 0 auto !important;
+        width: 100% !important;
+    }
+
+    // About us header 
+    .about-logo-header-section .about-logo-header-section-header {
+        font-weight: 600;
+        font-size: 35px!important;
+    }
+
+    // Navabr responsiveness
+    .navbar-collapse {
+        -ms-flex-preferred-size: 100% !important;
+        flex-basis: 100% !important;
+        -ms-flex-positive: 1 !important;
+        flex-grow: 1 !important;
+        -ms-flex-align: center!important;
+        align-items: center;
+        position: absolute !important;
+        top: 70px !important;
+        left: -6% !important;
+        width: 105%!important;
+        text-align: center!important;
+    }
+
+    .banner-right-image {
+        display: none;
+        height: 400px;
+    }
+    .efueling_img {
+        height: 400px;
+    }
+    
+    .app_media {
+        width: 70px;
+    }
+    .Stations_section_5 .stations-section-5-list-header {
+        color: #4b2c72;
+        font-size: 16px !important;
+        font-weight: 600;
+    }
+   .contact_form_submit_btn {
+       width: 100%;;
+   }
+   .stations-banner-section .stations-banner-row .stations-banner-left-header {
+        font-size: 27px !important;
+    }
+    .stations-banner-section .boost_sales_btn {
+        font-size: 20px !important;
+    }
+    nav {
+        margin: 0 auto !important;
+        width: 100% !important;
+        
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: white !important;
+        font-size: 15px !important;
+        text-align: center;
+        background: $primaryColor;
+    }
+    .navbar-nav {
+        background: white;
+    }
+    .hamburger {
+        height: 50px;
+        width: 50px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        align-items: center;
+        cursor: pointer;
+        margin: 10px;
+    }
+    
+    .span-toggler-bar {
+        height: 4px;
+        width: 30px;
+        background: $primaryColor;
+        border: 1px solid $primaryColor;
+    }
+    .navbar {
+        padding: 5px;
+    }
+    .banner-section .banner-section-content {
+        padding-top: 80px;
+    }
+    .epump-loader {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 40%;
+        left: 40%;
+    }
+    .epump-loader::after {
+        content: '';
+        position: absolute;
+        top: 0; left: 0;
+        border: 5px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 5px solid #fff;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        animation: spin 1s linear infinite;
+        
+        border: 5px solid grey;
+        border-top-color:$primaryColor;;
+        border-left-color:$primaryColor;;
+
+      }
+      
+      .banner-text-content {
+        display: block;
+    }
+     .banner-text-header {
+        font-size: 35px;
+        color: $primaryColor;;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .app-download{
+        width: 120px;
+    }
+    .call-to-action {
+        text-align: center;
+    }
+    .banner-left-section {
+        margin-top: 70px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .stations-banner-section .stations-banner-row p {
+        line-height: 1.9;
+        font-size: 16px !important;
+    }
+    .active-tab-menu{
+        color: white;
+    }
+    .logo-white-img {
+        position: absolute;
+        top: 7% !important;
+        left: 5% !important ;
+    }
+    .our_mission_row_section_block {
+        flex-direction: column-reverse !important;
+    }
+    .appstore_download {
+        width: 100% !important ;
+    }
+    .list_media_img {
+        height: 70px;
+    }
+    .playstore_download {
+        width: 100% !important;
+    }
+    .download_app_efueling_section {
+        display: block !important;
+    }
+    .contact-icon {
+        height: 50px;
+    }
+    .stations-banner-right-img {
+        display: none;
+    }
+    .process_section_main {
+        display: none;
+    }
+    .contact_us_section .contact_us_header {
+        font-size: 20px !important;
+        font-weight: 600 !important;
+        color: #4b2c72 !important;
+    }
+    .jumbotron {
+        padding: 0px !important;
+        margin-bottom: 0px !important; 
+        background-color: #e9ecef;
+        border-radius: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .form_row_section{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        margin-bottom: 70px;
+    }
+    .contact_us_section h5 {
+        font-size: 16px;
+        font-weight: 600 !important;
+    }
+    .contact_us_section .contact_us_section_row {
+        margin: 0 !important;
+        width: 100% !important;
+    } 
+    body {
+        overflow-x: hidden;
+    } 
+    // Manage byutton styles
+    .banner-section .manage_stations_button {
+        font-size: 16px;
+    }
+    .fa {
+        font-size: 25px !important;
+        margin-left: 10px !important;
+    }
+
+    .banner-section {
+        height: 411px !important;
+    }
+
+    // TABS styles
+    .banner-section .banner-tab-1 .tab-text {
+        font-size: 17px !important;
+    }
+    .banner-section  .active-tab {
+        background: $primaryColor!important ;
+        color: $whiteColor !important;
+    }
+    .banner-section .banner-tab-2 {
+        font-size: 17px !important;
+    }
+    .non-active-tab {
+        border-right: none;
+        border-left: none;
+        border-bottom: 3px solid $primaryColor;
+        color: $primaryColor !important;
+    }
+    .tab-item {
+        width: 50% !important;
+        height: 55px !important;
+    }
+    
+    .banner-right-image {
+        display: none;
+    }
+    .efueling_img {
+        display: none;
+    }
+    .efueling_section_banner {
+        margin: 0 auto;
+        width: 85%;
+        margin-top: 39% !important;
+    }
+    .efueling_section_banner .efueling_section_banner_row p {
+        color: black;
+        font-size: 18px !important;
+    }
+    .efueling_section_2 .efueling_section_2_header {
+        color: #4b2c72;
+        font-size: 27px !important;
+        font-weight: 700;
+    }
+    
+    .efueling_section_2 p {
+        color: #4b2c72;
+        font-size: 17px !important;
+    }
+    .epump_offers_section .epump_offers_section_container {
+         padding: 0 !important; 
+         padding-top: 50px !important;
+    }
+    .epump_offers_section .epump_offers_section_container .epump_offers_section_header {
+        
+        font-size: 20px !important;
+    }
+    .epump_offers_section .epump_offers_section_container .epump_offers_section_header_para {
+        margin-top: 20px !important;
+        color: white;
+        font-size: 16px !important;
+    }
+    .donwload_app_button {
+        width: 145px;
+    }
+    .efueling_section_banner .efueling_section_banner_row .efueling_section_banner_section_header {
+        font-size: 29px !important;
+        font-weight: 900;
+        color: #4b2c72;
+        line-height: 1.5;
+    }
+    .boost_sales_btn {
+        display: block !important;
+        width: 100%;
+        font-size: 20px !important;
+    }
+    .stations_card_row {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .stations_card {
+        width: 100% !important;
+        height: 433px !important;
+    }
+    .stations-banner-section {
+        margin: 0 auto;
+        width: 85%;
+        margin-top: 150px !important ;
+    }
+    .contact_us_section .contact_form_submit_btn {
+        padding: none !important; 
+    }
+    .fuelmetrics_logo {
+        width: 100%;
+    }
+    
+    .section-4 .section_4_header {
+        font-size: 35px;
+        text-align: center;
+    }
+    .app-download {
+        width: 110px;
+    }
+    .section-4 .section-4-text-content  {
+        text-align: center;
+    }
+    .site-button {
+        display: flex;
+        padding: 10px 20% 10px 31% !important;
+    }
+    
+    .banner-section {
+        margin-top: 20% !important;
+        
+    }
+    .form_container {
+        display: flex;
+        justify-content: center;
+    }
+    .list-unstyled {
+        margin-bottom: 30%;
+    }
+    .stations-banner-left-header {
+        margin-top: 50px;
+    }
+    .stations-section-4 .section-4-header-text {
+        font-size: 24px !important;
+    }
+    .banner-section-right-image {
+        display: none;
+    }
+    .stations-banner-section .stations-banner-right-img  {
+        margin-top: 20% !important;
+    }
+    .section_2_left_img {
+        width: 75%;
+        height: 325px;
+        padding-bottom: 69px;
+    }
+    .get_a_auote_card {
+        width: 100% !important;
+        margin-top: 30%;
+        position: none;
+        top: 0 !important;
+    }
+    .section-2 .section-2-header {
+        font-size: 26px;
+    }
+    .process_section {
+        display: none !important;
+    }
+    .section-2 {
+        margin-top: 80px !important;
+    }
+    .banner-section .banner-tab-header{
+        font-size: 24px !important;
+    }
+    .section-2-header {
+        padding-top: 40px;
+        font-size: 28px;
+        font-weight: 500;
+    }
+    .section-2-content {
+        font-size: 20px;
+        font-weight: 100;
+        text-align: center;
+    }
+    .banner-text-content {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .navbar-logo{
+        margin-left: 18px;
+    }
+    .main-call-to-action {
+        background: $primaryColor;;
+        margin-right: 30px;
+        border-radius: 4px;
+        cursor: pointer !important;
+        color: white !important;
+        padding: 10px 10px 10px 10px !important;
+        font-size: 16px;
+    }
+    .main-call-to-action:hover {
+        background: white;
+        color: $primaryColor !important;
+        border: 2px solid $primaryColor !important;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer ;
+        padding: 10px 10px 10px 10px;
+    }
+    .sec-call-to-action{
+        background: white;
+        color: $primaryColor !important;
+        border: 2px solid $primaryColor !important;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer !important;
+        padding: 10px 10px 10px 10px !important;
+    }
+}
+
+@media screen and (max-width: 356px) {
+    .sec-call-to-action {
+        background: white;
+        color: $primaryColor !important;
+        border: 2px solid $primaryColor !important;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer !important;
+        display: block;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .main-call-to-action {
+        background: $primaryColor;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer !important;
+        color: white !important;
+        width: 700px !important;
+        padding: 10px 30px 10px 30px !important;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .banner-section{
+        height: 600px;
+    }
+}
+  
+@media screen and (min-width: 576px)  and (max-width: 1125px){
+    .section-3-left-bg-section{
+        display: none !important;
+    }
+   
+    .banner-left-section{
+        max-width: none !important;
+        flex: none !important;
+    }
+    .banner-right-image{
+        display: none;
+    }
+    .banner-text-content {
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .col-sm-7 {
+        -ms-flex: 0 0 58.333333%;
+        flex: none !important;
+        max-width: none !important;
+    }
+    .call-to-action {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 320px){
+    .xs-device-btn {
+        display: none;
+        cursor: pointer;
+        text-align: center;
+        
+    }
+    .contact_us_section h5 {
+        color: #4b2c72;
+        font-weight: 600 !important;
+        font-size: 15px;
+    }
+    .contact_us_section .contact_form_submit_btn {
+        width: 100%;
+        font-size: 16px;
+        padding: 0 !important  ;
+    }
+    .xs-main-btn  {
+        background: $primaryColor;
+        color: white !important;
+    }
+    .banner-section .manage_stations_button {
+        font-size: 17px;
+    }
+    .app-download {
+        width: 96px;
+    }
+}
+@media screen and (min-width: 321px){
+    .xs-device-btn {
+        display: inline;
+        text-align: center;
+    }
+    .xs-main-btn  {
+        background: $primaryColor;;
+        color: white !important;
+        display: none;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    .app-download {
+        width: 137px;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .app-download {
+        width: 120px;
+    }
+}
+
+
+@media screen and (min-width: 411px) {
+    .app-download {
+        width: 135px;
+    }
+    .tab-item {
+        width: 186px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .app-download {
+        width: 130px;
+    }
+    .integrity_assured_img {
+        width: 90px !important;
+    }
+    .process_section_main {
+        display: none;
+    }
+    .our_mission_para {
+        text-align: justify;
+    }
+    .our_mission_img {
+        position: absolute;
+        top: 24%;
+        width: 77%;
+        left: 24%;
+    }
+    .fuelmetrics_logo {
+        position: absolute;
+        top: 34%;
+    }
+    .who_are_we_para {
+        text-align: justify;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 15px !important;
+        padding: 17px !important;
+    }
+    .get_a_auote_card {
+        position: relative !important;
+        top: 0 !important;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .section-2 {
+        visibility: visible;
+        margin-top: 120px !important;
+    }
+}

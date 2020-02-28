@@ -1,0 +1,47 @@
+.stations-section-4 {
+    
+    background: $primaryColor;
+    height: auto;
+    padding: 50px;
+    .section-4-header-text{
+        font-size: 35px;
+        font-weight: 500;
+        text-align: center;
+        color: $whiteColor;
+    }
+    .stations-section-4-header{
+        text-align: center;
+        color: $whiteColor;
+    }
+    .get_a_quote_btn_section {
+        display: flex;
+        justify-content: center;
+        .get_a_quote_btn {
+            cursor: pointer !important;
+            background:  $whiteColor;
+            color: $primaryColor !important;
+            padding: 10px 30px 10px 30px;
+            border: 1px solid $primaryColor;
+            border-radius: 5px;
+            text-decoration: none !important;
+        }
+    }
+    .stations-section-4-column-header {
+        color: $whiteColor;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .stations-section-4-column-text{
+        color: $whiteColor;
+        font-size: 16px;
+    }
+    .read_more_button {
+        cursor: pointer !important;
+        background:  #ffa500b8;
+        color: $whiteColor !important;
+        padding: 10px 30px 10px 30px;
+        border: 1px solid #ffa500b8;
+        border-radius: 5px;
+        text-decoration: none !important;
+    }
+}

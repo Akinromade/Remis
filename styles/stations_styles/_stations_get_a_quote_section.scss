@@ -1,0 +1,126 @@
+.stations_get_a_quote_section {
+    margin-top: 10%;
+    padding-bottom: 176px;
+    .process_section_main {
+        p {
+            font-size: 20px;
+        }
+    }
+    .get_quote_container {
+        margin: 0 auto;
+        width: 90%;
+        .get_quote_container_left_header {
+            color: $primaryColor;
+            font-size: 35px;
+            font-weight: 600;
+        }
+        .media_img_div {
+            height: 70px;
+            width: 70px;
+            background: #ff4200;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            border: none;
+            border-radius: 50%;
+            align-items: center;
+            .step-1 {
+                color: white;
+                font-size: 2em !important;
+            }
+        }
+        .media_img_div_step_line {
+            display: flex;
+            justify-content: center;
+            .step_rod {
+                height: 200px;
+                width: 5px;
+                background: #ff4200;
+            }
+        }
+        .step_div {
+            display: flex;
+            justify-content: center;
+        }
+        .step-text-1 {
+            color: $primaryColor;
+        }
+        .step-text-2 {
+            margin-top: 60%;
+            color: $primaryColor;
+        }
+        .step-text-3 {
+            margin-top: 70%;
+            color: $primaryColor;
+        }
+    }
+    form {
+        width: 80%;
+    }
+    .quote_form {
+        display: flex;
+        justify-content: center;
+    }
+    .quote_submit_btn_section {
+        display: flex;
+        justify-content: center;
+    }
+    .quote_submit_btn {
+        background: $primaryColor;
+        color: white;
+        padding: 10px 100px 10px 100px;
+        border: 1px solid $primaryColor;
+        border-radius: 5px;
+    }
+    label {
+        color: $primaryColor;
+    }
+    input {
+        border: 1px solid lightgray;
+        height: 50px;
+        border-radius: 12px;
+        &::focus {
+            outline: none;
+        }
+    }
+     ::placeholder {
+        color: $primaryColor;
+        font-weight: 300;
+        font-size: 20px;
+    }
+    textarea {
+        border: 1px solid lightgray;
+    }
+}
+
+.get_a_quote_card_header {
+    text-align: center !important;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    color: white;
+    background: $primaryColor;
+    padding: 30px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.get_a_auote_card {
+    border-radius: 0;
+    border: none;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    height: auto;
+    width: 100% !important;
+    position: absolute;
+    top: -18%;
+}
+
+.card-content-text {
+    padding: 20px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 1px solid $primaryColor;
+}

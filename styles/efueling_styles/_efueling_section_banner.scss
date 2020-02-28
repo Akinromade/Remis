@@ -1,0 +1,18 @@
+
+.efueling_section_banner {
+    margin: 0 auto;
+    width: 85%;
+    margin-top: 8%;
+    .efueling_section_banner_row {
+        .efueling_section_banner_section_header {
+            font-size: 40px;
+            font-weight: 600;
+            color: $primaryColor;
+            line-height: 1.5;
+        }
+        p {
+            color: $blackColor;
+            font-size: 20px;
+        }
+    }
+}

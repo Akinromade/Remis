@@ -1,0 +1,30 @@
+
+.section-6  {
+    padding: 100px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        rgba(20,20,20, .7), 
+        rgba(20,20,20, 0.9)),  url("https://accountingsoftware.com.ng/wp-content/uploads/2015/11/Accounting-Software-For-Petrol-Station-Nigeria-Kenya-Ghana1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+    .jumbotron-btn  {
+        background: $primaryColor;
+        text-align: center;
+        color: white;
+        padding: 10px 30px 10px 30px;
+        border: 1px solid $primaryColor;
+    }
+    .jumbotron-header {
+        font-size: 50px;
+    }
+    .section-6-text-content  {
+        font-size: 20px;
+    }
+}
+

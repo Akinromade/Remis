@@ -1,0 +1,88 @@
+
+
+nav{
+    margin: 0 auto !important;
+    width: 85% !important;
+    font-size: 20px;
+    color: $primaryColor;
+    background-color: transparent;
+    border: none;
+    z-index: 100;
+    transition: background-color 1s ease 0s;
+}
+.bg-light {
+    background: none !important;
+}
+.nav-container {
+    margin: 0 auto !important;
+    width: 100% !important;
+    z-index: 99999999;
+}
+.hamburger {
+    display: none;
+}
+.whiten-nav-link {
+    color: white;
+}
+.remove-white-bg-on-scroll {
+    color: $primaryColor;
+}
+.active-nav-link {
+    background:  $primaryColor;
+    color: white !important;
+    
+}
+.active-on-scroll {
+    background-color: white;
+    padding: 10px;
+    color:  $primaryColor!important;
+    border-bottom-color:  $primaryColor;
+    border-top-color:  $primaryColor;
+}
+.logo-white-img {
+    display: none;
+    width: 210px;
+}
+.navbar-fixed-top {
+    position: fixed !important;
+    height: 70px !important;
+    top: 0 !important;
+}
+.navbar .solid {
+    background-color:  $primaryColor;
+    transition: background-color 1s ease 0s;
+    height: 70px;
+}
+.nav-colored  {
+    background:  $primaryColor;
+    opacity: .8;
+    height: 70px;
+}
+.nav-transparent  {
+    background: transparent;
+}
+.nav-item {
+    margin-left: 20px !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    // font-size: 15px !important;
+    padding: 17px !important;
+}
+.nav-container {
+    display: flex !important;
+    justify-content: center !important;
+    background: transparent;
+}
+.bar .bar2 .bar3 {
+    background: #4b2c72;
+}
+
+.active-tab-menu {
+    border-bottom-color: white;
+    border-bottom: 2px solid;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem !important;
+    padding-left: 1em !important;
+}

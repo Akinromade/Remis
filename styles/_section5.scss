@@ -1,0 +1,25 @@
+
+.section-5 {
+    margin: 0 auto;
+    width: 100%;
+    .section-5-video-section {
+        height: auto;
+        img{
+            width: 100%;
+        }
+        .video-overlay-text{
+            position: absolute;
+            top: 80%;
+            left: 5%;
+        }
+        .section-6-text-content  {
+            color: white;
+        }
+        .jumbotron-header {
+            color: white;
+        }
+        .video-img {
+            height: inherit;
+        }
+    }
+}
