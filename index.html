@@ -61,7 +61,15 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contact</a>
-                          </li>
+                        </li>
+                      </ul>
+                      <ul class="navbar-nav mr-auto ml-5" >
+                        <li class="nav-item active mr-3">
+                          <a class="nav-link" href="#">
+                            <button class="learn_more_btn "style="float:right">Learn More</button>
+                            <img src="img/google-play-badge.png" width="263px" class="phone_img navBar__buttons" style="float:right" />
+                          </a>
+                        </li>
                       </ul>
                     </div>
                 </nav>
@@ -72,18 +80,7 @@
                 <div class="row first__banner__rwo_content" style="height: 100vh;">
                     <div class="col-md-8 ">
                         <div class="first_section">
-                            <div class="row">
-                                <div class="col-md-2">
-                                  
-                                </div>
-                                <div class="col-md-9">
-                                    <!-- <ul class="nav_list_items">
-                                        <li><a hreef="#" class="mr-5"> Why Remise?</a></li>
-                                        <li><a hreef="#" class="mr-5"> FAQ</a></li>
-                                        <li><a hreef="#" class="mr-5"> Contact us</a></li>
-                                    </ul> -->
-                                </div>
-                            </div>
+                           
     
                             <h3 class="baner_header">
                                 A Smarter Way To Fuel Your <br> 
@@ -299,9 +296,9 @@
                             <div class="footer_line__div " style=""></div>
 
                             <div class="mt-5">
-                                <img src="img/facebook.svg" class="mr-3" />
-                                <img src="img/ig.svg" class="mr-3" />
-                                <img src="img/t.svg" class="" />
+                                <img src="img/facebook.svg" class="mr-3 sociam_media_icon" width="35px" />
+                                <img src="img/ig.svg" class="mr-3 sociam_media_icon" width="35px"  />
+                                <img src="img/t.svg" class=" sociam_media_icon"  width="35px" />
                             </div>
 
                             <div class="copyright__Section mt-5">
@@ -356,11 +353,13 @@
             console.log($(window).scrollTop())
             if ($(window).scrollTop() > 63) {
               $('.navbar__wrapper').addClass('navbar-fixed');
-              $(".navbar-fixed").slideDown("slow");
+              document.querySelector('.learn_more_btn').style.display = 'inline-block';
+              document.querySelector('.navBar__buttons').style.display = 'inline-block';
             }
             if ($(window).scrollTop() < 64) {
               $('.navbar__wrapper').removeClass('navbar-fixed');
-              
+              document.querySelector('.learn_more_btn').style.display = 'none';
+              document.querySelector('.navBar__buttons').style.display = 'none';
             }
           });
     </script>

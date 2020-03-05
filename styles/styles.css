@@ -161,6 +161,7 @@ body {
   border-radius: 10px;
   opacity: 1;
   font-family: 'Montserrat', ;
+  display: none;
 }
 /* linear-gradient(rgb(26, 51, 101 , 0.7), rgb(26, 51, 101 , 0.7)),  */
 
@@ -433,5 +434,12 @@ body {
   width: 100%;
   margin: 0 auto;
   background: white;
-  transition: 1s all;
+  transition: background 1s ease-in-out;
+}
+.sociam_media_icon {
+  cursor: pointer;
+}
+
+.navBar__buttons {
+  display: none;
 }
