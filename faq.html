@@ -1,5 +1,5 @@
 <html>
-<title>REMISE</title>
+<title>remis</title>
 
 <head>
     <!-- slider libraries -->
@@ -38,6 +38,7 @@
     <link rel="stylesheet" type="text/css" href="css/open-iconic-bootstrap.css" />
     <link rel="stylesheet" type="text/css"
         href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="stepbar.js"></script>
 
 
 </head>
@@ -50,7 +51,7 @@
     <div class="main_page">
         <div class="navbar__wrapper" id="sticky_nav" data-spy="affix" data-offset-top="197">
             <nav class="navbar navbar-expand-lg" data-spy="affix" data-offset-top="197">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.html">
                     <svg xmlns="http://www.w3.org/2000/svg" width="55.984" height="50.579" viewBox="0 0 55.984 87.579">
                         <defs>
                             <style>
@@ -86,7 +87,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto ml-5">
                         <li class="nav-item active mr-3">
-                            <a class="nav-link" href="#">Why Remise ? <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="index.html">Why Remis ? <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item mr-3">
                             <a class="nav-link" href="#">FAQ</a>
@@ -121,16 +122,15 @@
                                 data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                 <div class="faq_head">
                                     <img src="img/chat.png" class="faq_chat" />
-                                    <p>Is my credit card secured</p>
+                                    <p>How do I use my subsidy account?</p>
                                     <img src="img/add.png" class="faq_add" />
                                 </div>
                                 <div id="collapseOne" class="collapse show faq_body" aria-labelledby="headingOne"
                                     data-parent="#accordionExample">
                                     <div>
-                                        Yes your credit card is very secured and in remise we don't keep users private
-                                        data
-                                        such as credit card info in our database.
-                                    </div>
+                                       On every litre purchased, &#8358;2 - &#8358;10 is deducted from your subsidy account 
+                                       as discount on price per litre. Discount varies with the  amount of money you have in your subsidy account.
+                                       This means the higher the balance in your subsidy account, the higher the discount.
                                 </div>
                             </div>
 
@@ -141,15 +141,13 @@
                                 data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 <div class="faq_head">
                                     <img src="img/chat.png" class="faq_chat" />
-                                    <p>Is my credit card secured</p>
+                                    <p>How do I fund my wallet?</p>
                                     <img src="img/add.png" class="faq_add" />
                                 </div>
                                 <div id="collapseTwo" class="collapse faq_body" aria-labelledby="headingTwo"
                                     data-parent="#accordionExample">
                                     <div>
-                                        Yes your credit card is very secured and in remise we don't keep users private
-                                        data
-                                        such as credit card info in our database.
+                                        You can fund your wallet by using your card.
                                     </div>
                                 </div>
                             </div>
@@ -161,15 +159,14 @@
                                 data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 <div class="faq_head">
                                     <img src="img/chat.png" class="faq_chat" />
-                                    <p>Is my credit card secured</p>
+                                    <p>Is my card information safe?</p>
                                     <img src="img/add.png" class="faq_add" />
                                 </div>
                                 <div id="collapseThree" class="collapse faq_body" aria-labelledby="headingOne"
                                     data-parent="#accordionExample">
                                     <div>
-                                        Yes your credit card is very secured and in remise we don't keep users private
-                                        data
-                                        such as credit card info in our database.
+                                         Remis is not a payment platform and for this reason we do not keep your card 
+                                         information. All payments made on Remis passes through the security measures implemented by flutter wave.
                                     </div>
                                 </div>
                             </div>
@@ -181,15 +178,13 @@
                                 data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                 <div class="faq_head">
                                     <img src="img/chat.png" class="faq_chat" />
-                                    <p>Is my credit card secured</p>
+                                    <p>Can Remis be used in any station?</p>
                                     <img src="img/add.png" class="faq_add" />
                                 </div>
                                 <div id="collapseFour" class="collapse faq_body" aria-labelledby="headingOne"
                                     data-parent="#accordionExample">
                                     <div>
-                                        Yes your credit card is very secured and in remise we don't keep users private
-                                        data
-                                        such as credit card info in our database.
+                                        Currently Remis can be used in 150+ partner stations within Nigeria 
                                     </div>
                                 </div>
                             </div>
@@ -201,20 +196,32 @@
                                 data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                 <div class="faq_head">
                                     <img src="img/chat.png" class="faq_chat" />
-                                    <p>Is my credit card secured</p>
+                                    <p>How do I earn subsidy balance?</p>
                                     <img src="img/add.png" class="faq_add" />
                                 </div>
                                 <div id="collapseFive" class="collapse faq_body" aria-labelledby="headingOne"
                                     data-parent="#accordionExample">
                                     <div>
-                                        Yes your credit card is very secured and in remise we don't keep users private
-                                        data
-                                        such as credit card info in our database.
+                                        You earn &#8358;500 free subsidy top-up when you refer a friend to download and register the Remis application
                                     </div>
                                 </div>
                             </div>
-
-
+                        </div>
+                        <div class="card mb-2">
+                            <div class="card-header faq collapsed" id="headingFive" type="button" data-toggle="collapse"
+                                data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                <div class="faq_head">
+                                    <img src="img/chat.png" class="faq_chat" />
+                                    <p>How can I locate Remis partner stations?</p>
+                                    <img src="img/add.png" class="faq_add" />
+                                </div>
+                                <div id="collapseFive" class="collapse faq_body" aria-labelledby="headingOne"
+                                    data-parent="#accordionExample">
+                                    <div>
+                                        On Remis Mobile App the station locator  let's you access google maps direction to any partner stations
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -223,10 +230,12 @@
             <img src="img/Repeat Grid 5.png" class="second__positioned_img "  width="70px"/>
             <img src="img/Repeat Grid 2.png" class="third__positioned_img "  width="70px"/>
         </div>
+     
+
         <div class="footer">
             <div class="footer_inner_content_wrapper">
                 <div class="row align-items-center">
-                    <div class="col-md-4">
+                    <div class="col-md-4 ">
                         <img src="img/remis__logo__white.svg" />
                     </div>
                     <div class="col-md-4">
@@ -251,7 +260,7 @@
 
                         <div class="copyright__Section mt-5">
                             <img src="img/copyright.svg" width="20px" />
-                            <span class="remise_footer__text ml-3">
+                            <span class="remis_footer__text ml-3">
                                 Remis 2020
                             </span>
                         </div>
@@ -269,6 +278,7 @@
 <script type="text/javascript">
     new WOW().init();
 </script>
+<script src="jquery.progressbar.js"></script>
 
 <script src="js/materialize.min.js"></script>
 <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>     -->
@@ -303,13 +313,35 @@
         console.log($(window).scrollTop())
         if ($(window).scrollTop() > 63) {
             $('.navbar__wrapper').addClass('navbar-fixed');
-            $(".navbar-fixed").slideDown("slow");
         }
         if ($(window).scrollTop() < 64) {
             $('.navbar__wrapper').removeClass('navbar-fixed');
 
         }
     });
+    var i = 1;
+    $('.progress .circle').removeClass().addClass('circle');
+    $('.progress .bar').removeClass().addClass('bar');
+    setInterval(function() {
+    $('.progress .circle:nth-of-type(' + i + ')').addClass('active');
+    
+    $('.progress .circle:nth-of-type(' + (i-1) + ')').removeClass('active').addClass('done');
+    
+    $('.progress .circle:nth-of-type(' + (i-1) + ') .label').html('&#10003;');
+    
+    $('.progress .bar:nth-of-type(' + (i-1) + ')').addClass('active');
+    
+    $('.progress .bar:nth-of-type(' + (i-2) + ')').removeClass('active').addClass('done');
+    
+    i++;
+    
+    if (i==0) {
+        $('.progress .bar').removeClass().addClass('bar');
+        $('.progress div.circle').removeClass().addClass('circle');
+        i = 1;
+    }
+    }, 1000);
+
 </script>
 
 </html>

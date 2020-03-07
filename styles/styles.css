@@ -2,7 +2,17 @@ body {
   
   font-family: 'Montserrat';
   overflow-x: hidden;
-  
+}
+
+p {
+  font-family: 'Montserrat';
+}
+
+* {
+  font-family: 'Montserrat';
+}
+h1, h2, h3, h4, h5 ,h6 {
+  font-family: 'Montserrat';
 }
 .first__banner__rwo_content {
   background: #F6F9FF;
@@ -152,6 +162,17 @@ body {
   font-weight: 600;
   margin-top: 30px;
   font-family: 'Montserrat';
+}
+.learn_more__btn {
+  background: #1A3365;
+  padding: 20px 60px 20px 60px;
+  color: #FFFFFF;
+  border: 1px solid #1A3365;
+  background: #1A3365 0% 0% no-repeat padding-box;
+  border: 1px solid #1A3365;
+  border-radius: 10px;
+  opacity: 1;
+  font-family: 'Montserrat', ;
 }
 .learn_more_btn {
   background: #1A3365;
@@ -357,10 +378,12 @@ body {
   background-color: none !important;
   width: 88% !important;
   margin: 0 auto !important;
+
   
 } 
 .navbar__wrapper {
   background: #F6F9FF;
+  box-shadow: 2px 2px 6px #00000012;
 }
 
 .nav-link {
@@ -368,6 +391,7 @@ body {
   padding-left: .5rem;
   color: #1A3365 !important;
   font-weight: 600 !important;
+  font-family: 'Montserrat' !important;
 }
 .map_section {
   margin: 0 auto;
@@ -418,6 +442,7 @@ body {
   font-size: 20px;
   font-weight: 600;
   font-family: 'Montserrat';
+  font-family: 'Montserrat';
 }
 .footer_line__div{
   width: 118px;
@@ -431,7 +456,8 @@ body {
   font-family: 'Montserrat';
 }
 .remise_footer__text {
-  color: #FFFFFF;
+  color: white;
+  font-family: 'Montserrat';
   font-family: 'Montserrat';
 }
 
@@ -447,6 +473,7 @@ body {
   margin: 0 auto;
   background: white;
   transition: 1s all;
+  font-family: 'Montserrat';
 }
 
 
@@ -455,11 +482,13 @@ body {
   color: #58585A;
   font-size: 16px;
   margin-bottom: 50px;
+  font-family: 'Montserrat';
 }
 
 .find_answers_email {
   color: #1A3365;
   font-weight: bold;
+  font-family: 'Montserrat';
 }
 
 .question_image {
@@ -473,16 +502,19 @@ body {
   padding: 15px 35px;
   justify-content: center;
   z-index: 1;
+  font-family: 'Montserrat';
 }
 
 .faq_head {
   display: flex;
   align-items: center;
   position: relative;
+  font-family: 'Montserrat';
 }
 
 .faq_chat {
   height: 40px;
+  font-family: 'Montserrat';
 }
 
 .faq_head > p {
@@ -491,16 +523,19 @@ body {
   font-size: 18px;
   font-weight: 700;
   margin-left: 50px;
+  font-family: 'Montserrat';
 }
 
 .faq_add {
   position: absolute;
   right: 1%;
   height: 30px;
+  font-family: 'Montserrat';
 }
 
 .faq_body {
   padding: 10px 80px 0 90px;
+  font-family: 'Montserrat';
 }
 
 
@@ -515,3 +550,13 @@ body {
     padding: 10px 0 0 0;
   }
 }
+
+@media (max-width: 575px) {
+  .phone__img {
+    left: -77%;
+    position: absolute;
+    z-index: 1;
+    height: 800px;
+  }
+}
+
