@@ -38,7 +38,7 @@ var x = setInterval(function() {
   document.querySelector(".days").innerHTML = days ;
   document.querySelector(".hours").innerHTML = days ;
   document.querySelector(".mins").innerHTML = minutes ;
-  document.querySelector(".secs").innerHTML = seconds ;
+  // document.querySelector(".secs").innerHTML = seconds ;
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);

@@ -2,7 +2,7 @@ body {
   
   font-family: 'Montserrat';
   overflow-x: hidden;
-  background: #F6F9FF;
+  /* background: #F6F9FF; */
   width: 100%;
 }
 
@@ -788,3 +788,11 @@ h1, h2, h3, h4, h5 ,h6 {
     transform: rotate(360deg);
   }
 } */
+
+/* MOBILE RESPONSIVENESS */
+
+@media screen and  (max-width: 575px ){
+  .clockdiv {
+    display: none;
+  }
+}
