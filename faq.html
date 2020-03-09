@@ -310,6 +310,17 @@
 
         }
     });
+
+    const card = Array.from(document.querySelectorAll('.card'))
+    card.forEach(cur => {
+        const add = cur.querySelector('.faq_add')
+        // alert('thanks')
+        cur.addEventListener('click', function() {
+            const source = add.src
+            console.log(source)
+            add.src = source === "file:///C:/Users/dell/Desktop/Remis/img/add.png" ? "img/chat.png" : "img/add.png"
+        })
+    })
 </script>
 
 </html>
