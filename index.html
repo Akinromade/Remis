@@ -323,35 +323,78 @@
                </div>
            </div>
         </div>
-        <button class="btn btn-primary btn-lg btn-open-modal" data-toggle="modal" data-target="#modal-fullscreen">
-            Fullscreen modal
-        </button>
+        <button class="md-trigger" data-modal="modal-12">Show modal</button>
         <!-- Modal Fullscreen -->
-        <div class="modal fade modal-fullscreen" id="modal-fullscreen" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+        <div class="md-modal md-effect-12">
+            <div class="md-content">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 class="coming_soon_text">Coming Soon</h3>
+                        <p class="comming_soon_para mt-4">
+                            The clock is Ticking ,We are coming up with <br> an application that makes fueling <br> Easier , smarter and stress free.
+                        </p>
+                        <div class="timer_div_wrapper mt-5">
+                            <div class="div1">
+                                <h3 class="counter_header days">22</h3>
+                                <p class="comming_soon_para mt-3">
+                                    Days
+                                </p>
+                            </div>
+                            <div class="div1">
+                                <h3 class="counter_header hours">15</h3>
+                                <p class="comming_soon_para mt-3">
+                                    Hours
+                                </p>
+                            </div>
+                            <div class="div1">
+                                <h3 class="counter_header mins">54</h3>
+                                <p class="comming_soon_para mt-3">
+                                    Minutes
+                                </p>
+                            </div>
+                            <div class="div1">
+                                <h3 class="counter_header secs">54</h3>
+                                <p class="comming_soon_para mt-3">
+                                    Secs
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <p class="first_text mt-3">
+                                Be the first to know when we launch!
+                            </p>
+                            <p class="first_text mt-3" style="color:#C0CFEE">
+                                Join our mailing list below
+                            </p>
+                        </div>
+                        
+
+                        <div class="coming__soon_email_input">
+                            <input type="email" class="email__input" placeholder="Enter Your Email" />
+                        </div>
+                        <div class="mt-3">
+                            <button class="coming__soon_submit_btn">Submit</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div style="float:right">
+                            <img src="img/close (1).svg" class="md-close" style="cursor: pointer" />
+                        </div>
+                        <div class="row   mt-5 align-items-center justify-content-center">
+                            <div class="col-md-12 sec_counter_wrapper">
+                                <img src="img/clock.svg" />
+                                <div class="sec_counter">
+                                    <div class="sec_counter_stick"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="modal-body">
-                <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-                <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-                <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-                <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                </div>
-                <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-            </div>
             </div>
         </div>
+        
+        <div class="md-overlay"></div>
     </body>
 
     
