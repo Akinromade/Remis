@@ -15,6 +15,11 @@ p {
 h1, h2, h3, h4, h5 ,h6 {
   font-family: 'Montserrat';
 }
+
+* {
+  box-sizing: border-box;
+}
+
 .first__banner__rwo_content {
   background: #F6F9FF;
   height: auto;
@@ -24,6 +29,12 @@ h1, h2, h3, h4, h5 ,h6 {
   background: #F6F9FF;
   padding-bottom: 70px;
 }
+
+.row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
 .nav_list_items {
   height: 100%;
   list-style-type: none;
@@ -520,16 +531,16 @@ h1, h2, h3, h4, h5 ,h6 {
 
 .faq_head > p {
   margin-bottom: 0;
+  width: 80%;
   color: #1A3365;
   font-size: 18px;
   font-weight: 700;
   margin-left: 50px;
+  margin-right: 10px;
   font-family: 'Montserrat';
 }
 
 .faq_add {
-  position: absolute;
-  right: 1%;
   height: 30px;
   font-family: 'Montserrat';
 }
@@ -550,7 +561,16 @@ h1, h2, h3, h4, h5 ,h6 {
   .faq_body {
     padding: 10px 0 0 0;
   }
+
+  .faq {
+    padding: 15px 20px;
+  }
+
+  .faq_head > p {
+    margin-left: 30px;
+  }
 }
+
 
 @media (max-width: 575px) {
   .phone__img {
