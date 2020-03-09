@@ -57,13 +57,13 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                       <ul class="navbar-nav mr-auto ml-5">
                         <li class="nav-item active mr-3">
-                          <a class="nav-link" href="#why_remis">Why Remis? <span class="sr-only">(current)</span></a>
+                          <a class="nav-link" href="index.html#why_remis">Why Remis? <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item mr-3">
                           <a class="nav-link" href="faq.html">FAQ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#footer">Contact</a>
+                            <a class="nav-link" href="index.html#footer">Contact</a>
                         </li>
                       </ul>
                       <div class="text-right">
@@ -81,15 +81,15 @@
                     </div>
                 </nav>
             </div>
-            
-           <div class="first-content" style="margin-top: 50px;">
+        
+    <div class="first-content" style="margin-top: 50px">
       <h2>Join the waiting list</h2>
       <p>Not in your Location yet? Sign up to get notified when we are</p>
     </div>
 
     <img src="img/Group 11.png" class="left__positioned_img " width="70px">
 
-    <div class="container pt-3 mt-5"  style="width:50%">
+    <div class="container pt-3" style="width:50%">
 
       <form id="msform">
         <!-- progressbar -->
@@ -99,54 +99,54 @@
           <li><img src="./img/map-pin.svg" alt="" srcset="" height="40px" width="30px"></li>
         </ul>
         <!-- fieldsets -->
-        <section>
+        <section id='personal_info'>
           <fieldset class="border p-3 form-group">
-          <legend class="w-auto">Personal Information</legend>
-          <div class="input-text">
-            <label for="inputName">Name</label>
-            <input type="text" class="form-control" id="inputText" style="height:50px; border:1px solid #1A3365" placeholder="Remis Nigeria" required>
-            <label for="inputEmail">Email</label>
-            <input type="email" class="form-control" style="height:50px; border:1px solid #1A3365"  id="inputEmail" placeholder="Enter Email Address" required>
-          </div>
+            <legend class="w-auto">Personal Information</legend>
+            <div class="input-text">
+              <label for="inputName">Name</label>
+              <input type="text" style=" height: 50px;border: 1px solid #495057;" class="form-control" id="inputText" placeholder="Remis Nigeria" required>
+              <label for="inputEmail">Email</label>
+              <input type="email" style=" height: 50px;border: 1px solid #495057;" class="form-control" id="inputEmail" placeholder="Enter Email Address" required>
+            </div>
           </fieldset>
-          <input type="button" name="next" class="next action-button" value="Next" />
+          <input type="button" name="next" id="personal_info_btn" class="next action-button" value="Next" />
         </section>
-        <section>
+        <section id="route_info">
           <fieldset class="border p-3 form-group">
-          <legend class="w-auto">Route Information</legend>
-          <div class="input-text">
-            <label for="inputName">Closest route</label>
-            <input type="text" style="height:50px; border:1px solid #1A3365"  class="form-control" id="inputText" placeholder="Choose or enter a location" required>
-          </div>
+            <legend class="w-auto">Route Information</legend>
+            <div class="input-text">
+              <label for="inputName">Closest route</label>
+              <input type="text" style=" height: 50px;border: 1px solid #495057;" class="form-control" id="inputText" placeholder="Choose or enter a location" required>
+            </div>
           </fieldset>
           <input type="button" name="previous" class="previous action-button" value="Previous" />
-          <input type="button"   name="next" class="next action-button" value="Next" />
+          <input type="button" name="next" id="route_info_btn" class="next action-button" value="Next" />
         </section>
-        <section>
+        <section id="route_info2">
           <fieldset class="border p-3 form-group">
-          <legend class="w-auto">Route Information</legend>
-          <div class="input-text">
-            <label for="inputName">Farthest route</label>
-            <input type="text" style="height:50px; border:1px solid #1A3365"  class="form-control" id="inputText" placeholder="Choose or enter a location" required>
-          </div>
+            <legend class="w-auto">Route Information</legend>
+            <div class="input-text">
+              <label for="inputName">Farthest route</label>
+              <input type="text" style=" height: 50px;border: 1px solid #495057;" class="form-control" id="inputText" placeholder="Choose or enter a location" required>
+            </div>
           </fieldset>
           <input type="button" name="previous" class="previous action-button" value="Previous" />
-          <input type="button" name="submit" class="next action-button" value="Submit" />
+          <input type="button" name="submit" id='route_info2_btn' class="next action-button" value="Submit" />
         </section>
 
         <section class="first-content">
           <h1>Yippe!!</h1>
           <p>You have successfully joined the waiting list,
-             a mail will be sent to you once we are available in your location</p>
-             <input type="button" name="next" class="next action-button" value="Next" />
-          </section>
+            a mail will be sent to you once we are available in your location</p>
+          <input type="button" name="next" class="next action-button" value="Next" />
+        </section>
 
-          <section class="first-content">
-            <h1>Yippe!!</h1>
-            <p>You have successfully joined the waiting list,
-               a mail will be sent to you once we are available in your location</p>
-               <input type="button" name="next" class="home-btn action-button" href="" value="Back to home" />
-            </section>
+        <section class="first-content">
+          <h1>Yippe!!</h1>
+          <p>You have successfully joined the waiting list,
+            a mail will be sent to you once we are available in your location</p>
+          <input type="button" name="next" class="home-btn action-button" href="" value="Back to home" />
+        </section>
       </form>
     </div>
     <img src="img/Repeat Grid 2.png" class="first_banner_first_grid" width="94px">
@@ -203,9 +203,13 @@
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="js/owl.carousel.min.js"></script>
-    <!-- <script src="js/index.js"></script> -->
+    <script src="js/index.js"></script> 
     <script type="text/javascript" src="https://www.viralpatel.net/demo/jquery/jquery.shorten.1.0.js"></script>
-    <script src="js/waiting-list.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script type="text/javascript" src="./js/waiting-list.js"></script>
     <script>
 
         $('.brand-carousel').owlCarousel({
@@ -224,20 +228,7 @@
             }
         })
 
-        // STICKY NAVBAR NAVIGATION
-        $(window).scroll(function () {
-            console.log($(window).scrollTop())
-            if ($(window).scrollTop() > 63) {
-              $('.navbar__wrapper').addClass('navbar-fixed');
-              document.querySelector('.learn_more_btn').style.display = 'inline-block';
-              document.querySelector('.navBar__buttons').style.display = 'inline-block';
-            }
-            if ($(window).scrollTop() < 64) {
-              $('.navbar__wrapper').removeClass('navbar-fixed');
-              document.querySelector('.learn_more_btn').style.display = 'none';
-              document.querySelector('.navBar__buttons').style.display = 'none';
-            }
-          });
+    
     </script>
     
 </html>
