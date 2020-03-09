@@ -92,6 +92,65 @@ h1, h2, h3, h4, h5 ,h6 {
 .why_choose_us {
   
 }
+.animation_img_section {
+  position: relative;
+}
+.animate_img_wrapper {
+  display: flex;
+  flex-flow: column wrap;
+}
+.anim_img_1 {
+  position: absolute;
+  top: 21px;
+  left: 29px;
+  z-index: 1;
+  animation-name: img1Animate;
+  animation-duration: 1s;
+  display: none;
+}
+@keyframes img1Animate {
+  0%   {transform: translateX(-30px);}
+ 
+}
+.anim_img_2 {
+  position: absolute;
+  top:28px;
+  left: 15px;
+  z-index: 2;
+  animation-name: img2Animate;
+  animation-duration: 1s;
+  display: none;
+}
+@keyframes img2Animate {
+  0%   {transform: translateX(-30px);}
+ 
+}
+.anim_img_3 {
+  position: absolute;
+  top:30px;
+  left: 10px;
+  z-index: 3;
+  animation-name: img3Animate;
+  animation-duration: 1s;
+  display: none;
+}
+@keyframes img3Animate {
+  0%   {transform: translateX(-30px);}
+ 
+}
+.anim_img_4 {
+  position: absolute;
+  top:32px;
+  left: 19px;
+  z-index: 3;
+  animation-name: img4Animate;
+  animation-duration: 1s;
+  display: none;
+}
+@keyframes img4Animate {
+  0%   {transform: translateX(-30px);}
+ 
+}
 .why_choose_us_card_container {
   display: flex;
 }
@@ -561,3 +620,18 @@ h1, h2, h3, h4, h5 ,h6 {
   }
 }
 
+
+.modal-dialog {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  border: 0 none;
+  border-radius: 0;
+  box-shadow: none;
+}

@@ -111,8 +111,26 @@ $('.previous').click(function () {
     complete: function () {
       current_fs.hide();
       animating = false;
+      setTimeout(() => {
+        document.querySelector('.anim_img_1').style.display = 'block';
+      }, 1000)
+      
+      setTimeout(() => {
+        document.querySelector('.anim_img_2').style.display = 'block';
+       
+      }, 2000)
+      
+      setTimeout(() => {
+        document.querySelector('.anim_img_3').style.display = 'block';
+       
+      }, 3000)
+      
+      setTimeout(() => {
+        document.querySelector('.anim_img_4').style.display = 'block';
+      }, 4000)
     },
     //this comes from the custom easing plugin
     easing: 'easeInOutBack'
   });
 });
+

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31.667" height="21.694" viewBox="0 0 31.667 21.694">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-1.487" y1="0.893" x2="-1.487" y2="0.279" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="gray" stop-opacity="0.251"/>
+      <stop offset="0.54" stop-color="gray" stop-opacity="0.122"/>
+      <stop offset="1" stop-color="gray" stop-opacity="0.102"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_497" data-name="Group 497" transform="translate(-922.612 -623.409)">
+    <rect id="Rectangle_31" data-name="Rectangle 31" width="18.241" height="29.681" transform="matrix(0.121, -0.993, 0.993, 0.121, 922.612, 641.516)" fill="url(#linear-gradient)"/>
+    <g id="Group_493" data-name="Group 493" transform="translate(883.51 574.78)">
+      <rect id="Rectangle_32" data-name="Rectangle 32" width="17.023" height="28.674" transform="matrix(0.121, -0.993, 0.993, 0.121, 39.556, 66.021)" fill="#faf8e4"/>
+      <g id="Group_479" data-name="Group 479" transform="translate(42.36 50.565)" opacity="0.6">
+        <rect id="Rectangle_33" data-name="Rectangle 33" width="3.649" height="2.7" transform="matrix(-0.993, -0.121, 0.121, -0.993, 3.622, 3.121)" fill="#6c63ff"/>
+        <rect id="Rectangle_34" data-name="Rectangle 34" width="14.009" height="0.875" transform="matrix(-0.993, -0.121, 0.121, -0.993, 16.243, 9.948)" fill="#6c63ff"/>
+        <rect id="Rectangle_35" data-name="Rectangle 35" width="10.215" height="0.583" transform="matrix(-0.993, -0.121, 0.121, -0.993, 16.014, 11.832)" fill="#6c63ff"/>
+      </g>
+    </g>
+  </g>
+</svg>
