@@ -473,6 +473,8 @@ h1, h2, h3, h4, h5 ,h6 {
 .map_section_wrapper {
   background-color: #F6F9FF;
   position: relative;
+  margin: 0 auto;
+  width: 89%;
 }
 .map__header {
   text-align: left;
