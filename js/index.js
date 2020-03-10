@@ -51,35 +51,14 @@ var x = setInterval(function() {
 // COUNT DWON MODAL
 window.onload = () => {
   document.querySelector(".md-modal").classList.add('md-show');
-  let count_down_stick =  document.querySelector(".sec_counter_stick");
-
-
-  let timer = (seconds/60) * 360;
 }
+document.querySelector(".close_modal").addEventListener('click', () => {
+  document.querySelector(".md-modal").classList.remove('md-show');
+})
 document.querySelector(".md-close").addEventListener('click', () => {
   document.querySelector(".md-modal").classList.remove('md-show');
 })
 
-// Animation for Waitingv list conmfirmation
-document.querySelector(".submit_waitin_list_btn").addEventListener('click', () => {
-  setTimeout(() => {
-    document.querySelector('.anim_img_1').style.display = 'block';
-  }, 1000)
-  
-  setTimeout(() => {
-    document.querySelector('.anim_img_2').style.display = 'block';
-   
-  }, 2000)
-  
-  setTimeout(() => {
-    document.querySelector('.anim_img_3').style.display = 'block';
-   
-  }, 3000)
-  
-  setTimeout(() => {
-    document.querySelector('.anim_img_4').style.display = 'block';
-  }, 4000)
-});
 
 
 

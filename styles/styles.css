@@ -631,15 +631,15 @@ h1, h2, h3, h4, h5 ,h6 {
   }
 }
 
-
-@media (max-width: 575px) {
-  .phone__img {
-    left: -77%;
-    position: absolute;
-    z-index: 1;
-    height: 800px;
-  }
+.clearfix {
+  overflow: auto;
 }
+.right_div {
+  float: right;
+}
+.left_div {
+  float: left;
+} 
 
 /* COUNT DOWN MODAL */
 .md-modal {
@@ -754,26 +754,44 @@ h1, h2, h3, h4, h5 ,h6 {
 }
 
 .sec_counter_wrapper {
+  position: relative; 
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  width: 500px;
   position: relative;
+  align-items: center;
+}
+
+.clock__wrapper {
+  position: absolute;
+  top:  0;
 }
 
 .sec_counter {
-  position: absolute;
-  top: 21%;
-  left: 22%;
-  width: 350px;
-  height: 350px;
+
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   background: #adb5bd36;
   opacity: 1;
   border: 1px solid #adb5bd36;
+  display: flex;
+  align-items: center;
+}
+.clock__wrapper {
+  z-index: -1 !important;
+  height: 100%;
+}
+.mobile_close {
+  display: none;
 }
 .sec_counter_stick {
   width: 50%;
   height: 3px;
   background: #FFBB00;
-  position: absolute;
-  top: 50%;
+  /* position: absolute; */
+  /* top: 50%; */
   transform-origin: 100%;
   transform: rotate(90deg);
   transition: all 0.05s;
@@ -795,4 +813,51 @@ h1, h2, h3, h4, h5 ,h6 {
   .clockdiv {
     display: none;
   }
+  .container {
+    width: 100% !important; 
+  }
+  .comming_soon_para  {
+    font-size: 40px !important;
+  }
+  .timer_div_wrapper  {
+    width: 90% !important;
+  }
+  .first_text {
+    font-size: 40px !important;
+  }
+  .coming__soon_email_input .email__input {
+    width: 100% !important;
+    height: 100px !important;
+  }
+  .coming__soon_email_input  ::placeholder {
+    font-size: 40px !important;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .footer_logo {
+    margin-top: 20px;
+  }
+  .coming__soon_submit_btn{
+    padding: 14px 40px 14px 40px !important;
+    width: 100% !important;
+    font-size: 54px !important;
+  }
+  .mobile_close {
+    display: block !important;
+  }
+  form#msform {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    position: relative;
 }
+.input-text { 
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  #personal_info {
+    padding-bottom: 20px !important;
+  }
+}
+
+
